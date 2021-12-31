@@ -3,14 +3,14 @@ var bk, bg;
 var astronaut, sleep, brush, gym, eat, drink, bath;
 
 function preload(){
-bg = loadImage("./Astronaut's daily routine/iss.png");
-sleep = loadImage("./Astronaut's daily routine/sleep.png");
-brush = loadImage("./Astronaut's daily routine/brush.png");
-gym = loadImage("./Astronaut's daily routine/gym1.png", "./Astronaut's daily routine/gym2.png", "./Astronaut's daily routine/gum11.png", "./Astronaut's daily routine/gym12.png");
-eat = loadImage("./Astronaut's daily routine/eat2.png", "./Astronaut's daily routine/eat1.png" );
-drink = loadImage("./Astronaut's daily routine/drink1.png", "./Astronaut's daily routine/drink2.png");
-bath = loadImage("././Astronaut's daily routine/bath1.png", "./Astronaut's daily routine/bath2.png");
-move = loadImage("./Astronaut's daily routine/move.png", "./Astronaut's daily routine/move1.png");
+bg = loadImage("iss.png");
+sleep = loadImage("sleep.png");
+brush = loadImage("routine/brush.png");
+gym = loadImage("gym1.png", "gym2.png", "gym11.png", "gym12.png");
+eat = loadImage("eat2.png", "eat1.png" );
+drink = loadImage("drink1.png", "drink2.png");
+bath = loadImage("bath1.png", "bath2.png");
+move = loadImage("move.png", "move1.png");
 } 
 
 function setup() {
